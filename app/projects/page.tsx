@@ -15,7 +15,7 @@ export default function projectsPage() {
         </p>
       </section>
 
-      <section id="project-intro" className="py-16 bg-gray-50">
+      <section id="project-intro" className="py-16 bg-red-100/50">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">프로젝트 소개</h2>
 
@@ -39,7 +39,7 @@ export default function projectsPage() {
         </div>
       </section>
 
-      <section id="features" className="py-16">
+      <section id="features" className="py-16 ">
         <div className="container mx-auto text-center">
           <div className="bg-gray-100 py-6 px-8 rounded-lg inline-block">
             <h2 className="text-3xl font-bold">개발 환경</h2>
@@ -72,7 +72,7 @@ export default function projectsPage() {
         </div>
       </section>
 
-      <section id="projects" className="py-16 bg-gray-100">
+      <section id="projects" className="py-16 bg-red-100/50">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold">기능 구현</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
@@ -139,8 +139,8 @@ export default function projectsPage() {
         </div>
       </section>
 
-      <footer className="bg-gray-800 text-white py-6">
-        <div className="container mx-auto text-center">
+      <footer className="bg-red-200 text-white font-bold py-6">
+        <div className="container mx-auto text-center ">
           <p>중부대학교 웹서버보안프로그래밍</p>
         </div>
       </footer>

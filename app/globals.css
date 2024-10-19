@@ -25,3 +25,50 @@ body {
     text-wrap: balance;
   }
 }
+
+.img {
+  z-index: -100;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-align: center; /* 텍스트와 버튼 중앙 정렬 */
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  filter: brightness(0.5);
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  white-space: nowrap;
+}
+
+.button-container {
+  position: absolute;
+  top: 60%; /* 제목 바로 밑에 위치하도록 설정 */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* 버튼 간의 간격 */
+}
+
+.large-button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
