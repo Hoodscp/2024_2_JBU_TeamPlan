@@ -1,11 +1,14 @@
 import React from 'react'
-
-export default function videosPage() {
+import Video from 'next-video'
+export default function VideoPage() {
   return (
     <div>
-      <h1 className="mt-20 text-center text-4xl font-extrabold">
-        소개 비디오 첨부 페이지
-      </h1>
+      <Video
+        src={'/video.mp4'} // 비디오 파일 경로
+        autoPlay
+        muted
+        loop
+      ></Video>
     </div>
   )
 }
