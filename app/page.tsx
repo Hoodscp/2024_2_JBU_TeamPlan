@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Page() {
   return (
     <div className="image-container font-[family-name:var(--font-geist-mono)] font-bold">
-      <img src="/teams.jpg" alt="" className="background-image" />
+      <img src="/teams.jpg" alt="teams" className="background-image" />
       <h1 className="title">웹보안프로그래밍 팀 프로젝트를 소개합니다!</h1>
       <div className="button-container">
         <Link href="/teams">
