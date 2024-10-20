@@ -24,7 +24,7 @@ const teamMembers: TeamMember[] = [
       '안녕하세요. 23학번 2학년 고은이입니다. 웹 서버 보안 프로그래밍 수업을 통해 nextjs에 대해 배우고  웹 서비스를 제공하는 웹 사이트를 제작하는 것을 배우고 있습니다. 웹 이외에는 포렌식에 관심을 가지고 공부하고 있습니다.',
     github: 'https://github.com/goeuni',
     vercel: 'https://vercel.com/goeunis-projects',
-    portpolio: 'https://portpolio.com', //
+    portpolio: 'https://portfolio-goeunis-projects.vercel.app/', //
     image: '/img1.jpg',
   },
   {
@@ -36,7 +36,7 @@ const teamMembers: TeamMember[] = [
       '1학기에 기초적인 웹 프로그래밍에 대해 배우고 2학기에 백엔드 프로그래밍과 Next.js 활용법에 대해 배우고 싶어  웹서버 보안 프로그래밍 과목을 수강하게 된 21학번 이지훈입니다. 웹 서버 보안 이외에도 리버스 엔지니어링 등에 관심을 갖고 있습니다.',
     github: 'https://github.com/Hoodscp',
     vercel: 'https://Hoodscp.vercel.app',
-    portpolio: 'https://portpolio.com',
+    portpolio: 'https://2024-2-jbu-portfolio.vercel.app/',
     image: '/img2.jpg',
   },
   {
@@ -60,7 +60,7 @@ const teamMembers: TeamMember[] = [
       '정보보호학과에 재학 중인 23학번 홍정현입니다. 웹 서버 보안 프로그래밍 과목을 통해 기초적인 웹 프로그래밍을 배우고 있으며, 2학기 때는 특히 백엔드 분야에 집중해 수강하고 있습니다.',
     github: 'https://github.com/anon418',
     vercel: 'https://vercel.com/anondzs-projects',
-    portpolio: 'https://portpolio.com',
+    portpolio: 'https://int-dusky.vercel.app/',
     image: '/img4.jpg',
   },
 ]
