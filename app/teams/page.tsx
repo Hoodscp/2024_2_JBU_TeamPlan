@@ -1,6 +1,8 @@
 'use client'
+import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
 import { FaPen } from 'react-icons/fa'
+Image
 
 interface TeamMember {
   id: number
@@ -87,7 +89,7 @@ const MemberCard: React.FC<MemberCardProps> = ({ member, index }) => {
       } w-full h-[300px] mb-4`} // 박스 크기 조정
     >
       <div className="flex items-start mb-4">
-        <img
+        <Image
           src={member.image}
           alt={member.name}
           className="w-24 h-24 rounded-full mr-4 -mt-10 -ml-10 border-4 border-white cursor-pointer hover:brightness-50" // 사진 클릭 시 원본 보기
