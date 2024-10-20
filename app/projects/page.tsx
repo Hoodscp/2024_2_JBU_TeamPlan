@@ -1,6 +1,7 @@
 import React from 'react'
 import { GiStairsGoal } from 'react-icons/gi'
 import { FaCalendarAlt } from 'react-icons/fa'
+import Image from 'next/image'
 
 export default function projectsPage() {
   return (
@@ -77,7 +78,7 @@ export default function projectsPage() {
           <h2 className="text-3xl font-bold">기능 구현</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             <div className="flex flex-col justify-between p-4 bg-white rounded-lg shadow">
-              <img
+              <Image
                 src="/register.png"
                 className="w-full h-auto object-cover mb-4"
               />
