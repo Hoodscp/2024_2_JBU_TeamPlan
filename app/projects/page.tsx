@@ -6,7 +6,7 @@ export default function projectsPage() {
   return (
     <div>
       <section
-        className="bg-blue-500 text-white text-center py-24 bg-no-repeat bg-cover bg-center"
+        className="bg-red-200 text-white text-center py-24 bg-no-repeat bg-cover bg-center"
         style={{ backgroundImage: "url('/jbu.jpg')" }}
       >
         <h1 className="text-4xl font-bold">중부대학교 도서관</h1>
