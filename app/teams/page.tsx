@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
 import { FaPen } from 'react-icons/fa'
-Image
 
 interface TeamMember {
   id: number
@@ -74,7 +73,7 @@ interface MemberCardProps {
 
 const MemberCard: React.FC<MemberCardProps> = ({ member, index }) => {
   const [isVisible, setIsVisible] = useState(false)
-  const [showGithub, setShowGithub] = useState(false)
+  //const [showGithub, setShowGithub] = useState(false)
   const [showLinks, setShowLinks] = useState(false) // 링크 표시 상태 추가
 
   useEffect(() => {
