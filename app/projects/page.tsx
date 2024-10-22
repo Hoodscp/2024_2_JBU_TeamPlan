@@ -23,7 +23,7 @@ export default function projectsPage() {
             <FaCalendarAlt className="text-9xl mb-4 " />
 
             <h3 className="text-xl font-semibold">개발 기간</h3>
-            <p className="mt-2">2024년 10월 22일 ~ 2024년 12월까지 24일</p>
+            <p className="mt-2">2024년 10월 22일 ~ 2024년 12월 24일까지</p>
           </div>
 
           <div className="p-4 bg-white rounded-lg shadow mb-8 flex flex-col items-center">
